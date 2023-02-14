@@ -1,7 +1,10 @@
 {
   "name": "reactjs-blog",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
   "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
