@@ -18,20 +18,31 @@ function Blog() {
        });
   }, []);
   return (
-    <div>
+    <><div>
       <h2 className="headingLg">ReactJS Blog</h2>
       <ul className="list">
-          {posts.map(({ _id, BlogDate, Title }) => (
-            <li className="listItem" key={_id}>
-              <Link to={`/post/${_id}`}>{Title}</Link>
-              <br />
-              <small className="lightText">
-                <Date dateString={BlogDate} />
-              </small>
-            </li>
-          ))}
-        </ul>
-    </div>
+        {posts.map(({ _id, BlogDate, Title }) => (
+          <li className="listItem" key={_id}>
+            <Link to={`/post/${_id}`}>{Title}</Link>
+            <br />
+            <small className="lightText">
+              <Date dateString={BlogDate} />
+            </small>
+          </li>
+        ))}
+      </ul>
+    </div><div>
+        <p className="mt-5">
+          <Link to="https://aspnetmvc-blog.onrender.com/">
+            Same Blog data in ASP.NET
+          </Link>
+        </p>
+        <p>
+          <Link to="https://nextjs-blog-alen456.vercel.app/">
+            Same Blog data NextJs
+          </Link>
+        </p>
+      </div></>
   );
 }
 
