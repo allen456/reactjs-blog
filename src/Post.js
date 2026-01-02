@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
 import { remark } from 'remark';
-import html from 'remark-html';
+import remarkHtml from 'remark-html';
 import Date from './Date';
 
 const blogapi = `https://nestjs-blog-api-alen456.vercel.app/`;
@@ -14,7 +14,7 @@ function Post() {
     fetch(`${blogapi}blogs/${id}`)
        .then((response) => response.json())
        .then(async (data) => {
-        const processedContent = await remark().use(html).process(data.Content);
+        const processedContent = await remark().use(remarkHtml).process(data.Content);
         data.Content = processedContent.toString();
         setPost(data);
        })
