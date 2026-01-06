@@ -34,12 +34,17 @@ function Blog() {
     </div><div>
         <p className="mt-5">
           <Link to="https://aspnetmvc-blog.onrender.com/">
-            Same Blog data in ASP.NET
+            Blog in ASP.NET
           </Link>
         </p>
         <p>
           <Link to="https://nextjs-blog-alen456.vercel.app/">
-            Same Blog data NextJs
+            Blog in NextJs
+          </Link>
+        </p>
+        <p>
+          <Link to="https://angular-blog-alen456s-projects.vercel.app/">
+            Blog in Angular
           </Link>
         </p>
       </div></>
