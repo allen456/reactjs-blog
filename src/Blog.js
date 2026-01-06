@@ -43,7 +43,7 @@ function Blog() {
           </Link>
         </p>
         <p>
-          <Link to="https://angular-blog-alen456s-projects.vercel.app/">
+          <Link to="https://angular-blog-plum-iota.vercel.app/">
             Blog in Angular
           </Link>
         </p>
