@@ -38,7 +38,7 @@ function Blog() {
           </Link>
         </p>
         <p>
-          <Link to="https://nextjs-blog-alen456.vercel.app/">
+          <Link to="https://nextjs-blog-eight-chi-85.vercel.app/">
             Blog in NextJs
           </Link>
         </p>
